@@ -1,0 +1,95 @@
+
+  .greet{
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    left: 260px;
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #fff;
+
+  }
+  /* CreditsContainer.module.css */
+
+.creditscontainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(103, 139, 103);
+    border: 2px solid #b7c8b7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 20px;
+    width: 1700px;
+    height: 200px;
+
+  }
+
+
+  
+  .creditssection {
+    height: 100px;
+    text-align: center;
+    flex: 2;
+    padding: 10px;
+    background-color: #36523e;
+    margin: 20px;
+    width: 100px;
+    border-radius: 25px;
+    align-self: center;
+    
+  }
+  .data{
+    position: absolute;
+    padding: 40px;
+    text-align: left;
+    left: 260px;
+    margin-top: 100px;
+    width: 1200px;
+    display: flex;
+
+    
+  }
+  .transactions{
+    position: absolute;
+    padding: 40px;
+    text-align: left;
+    left: 260px;
+    margin-top: 380px;
+    width: 1200px;
+  }
+
+  .whole{
+    height: 100vh;
+  }
+  .search{
+    float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #77744e;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  }
+  .transactionTableContainer {
+    margin-top: 20px; /* Add spacing between the heading and the table */
+  }
+  
+  .transactionTable {
+    margin: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dddddd; /* Add border around the table */
+  }
+  
+  .transactionTable th, .transactionTable td {
+    border: 1px solid #dddddd; /* Add border around each cell */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .transactionTable th {
+    background-color: #36523e;
+  }
+  
