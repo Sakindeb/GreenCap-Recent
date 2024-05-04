@@ -6,13 +6,16 @@
     
   }
   .card {
-    background: #b37575;
+    background: #c8d2cb;
     border-radius: 2px;
     display: inline-block;
     height: 380px;
     margin: 1rem;
     position: relative;
     width: 330px;
+    overflow: auto;
+    border-radius: 20px;
+
 
   }
   .card:hover {

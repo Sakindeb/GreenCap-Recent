@@ -20,17 +20,25 @@ export default function Orders() {
       
 
       <div className={styles.transaction}>
-        <h2>Recent Transactions</h2>
-        <p>
-        <ul>
-          {transactions.map((transaction, index) => (
-            <li key={index}>
-              Project Name: {transaction.project}, Credits Purchased: {transaction.quantity}
-            </li>
-            
-          ))}
-        </ul>
-        </p>
+        <h2>My Transactions</h2>
+        <table className={styles.transactionTable}>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Project</th>
+              <th>Credits Purchased</th>
+            </tr>
+          </thead>
+          <tbody>
+            {transactions.map((transaction, index) => (
+              <tr key={index}>
+                <td>{new Date(transaction.timestamp).toDateString()}</td>
+                <td>{`Project ${transaction.project}`}</td>
+                <td>{transaction.quantity}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   )

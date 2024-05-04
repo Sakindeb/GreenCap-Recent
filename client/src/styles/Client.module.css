@@ -6,7 +6,6 @@
     left: 260px;
     margin-top: 20px;
     font-size: 1.3em;
-    color: #fff;
 
   }
   /* CreditsContainer.module.css */
@@ -14,7 +13,6 @@
 .creditscontainer {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(103, 139, 103);
     border: 2px solid #b7c8b7;
     border-radius: 10px;
     padding: 20px;
@@ -32,7 +30,7 @@
     text-align: center;
     flex: 2;
     padding: 10px;
-    background-color: #36523e;
+    background-color: #c0c7c2;
     margin: 20px;
     width: 100px;
     border-radius: 25px;
@@ -58,6 +56,15 @@
     margin-top: 380px;
     width: 1200px;
   }
+  .transaction{
+    position: absolute;
+    padding: 40px;
+    text-align: left;
+    left: 260px;
+    margin-top: 30px;
+    width: 1200px;
+  }
+
 
   .whole{
     height: 100vh;
@@ -90,6 +97,7 @@
   }
   
   .transactionTable th {
-    background-color: #36523e;
+    background-color: #475f47;
+    color: white;
   }
   

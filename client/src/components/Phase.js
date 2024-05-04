@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styles from '../styles/Projects.module.css'
 import { Link } from 'react-router-dom'
-import forest from '../assets/forestgre.jpeg'
+import forest from '../assets/karura.jpeg'
 const ProjectList = () => {
   const [projects, setProjects] = useState([]);
 
